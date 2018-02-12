@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+					<li class="nav-list"><a href="index.html">Home</a></li>
+					<li class="nav-list"><a href="#">About</a></li>
+					<li class="nav-list"><a href="register.html">Contact</a></li>
+					<li class="nav-list"><a href="blog.html">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="main">
+			<div class="container">
+				<section id="contact">
+					<h2>Register Now!</h2>
+					<form action="thank-you.html" id="form-register">
+						<div class="field-1">
+							<label for="name-field">Name *:</label>
+							<span style="margin-left:50px"><input type="text" id="name-field" name="your-name" placeholder="John Doe" required></span>
+						</div>
+						<div class="field-2">
+							<label for="email-field">Email *:</label>
+							<span style="margin-left:56px"><input type="text" id="email-field" name="your-email" placeholder="hello@gmail.com" required></span>
+						</div>
+						<div class="field-3">
+							<label for="phone-field">Phone:</label>
+							<span style="margin-left:63px"><input type="text" id="phone-field" name="your-phone" placeholder="415-123-4567"></span>
+						</div>
+						<div class="field-4">
+							<label for="state-field">State:</label>
+							<span style="margin-left:75px"><select name="state-field">
+								<option value="alabama">Alabama</option>
+								<option value="alaska">Alaska</option>
+								<option value="arizona">Arizona</option>
+								<option value="arkansas">Arkansas</option>
+								<option value="california">California</option>
+								<option value="colorado">Colorado</option>
+								<option value="connecticut">Connecticut</option>
+							</select></span>
+						</div>
+						<div class="field-5">
+							<label for="pw-field">Password *:</label>
+							<span style="margin-left:23px"><input type="password" id="pw-field" name="your-pw" minlength="4" maxlength="8" required></span>
+						</div>
+						<div class="field-6">
+							<span>Which service are you interested in?</span>
+							<input type="radio" id="service-field" name="service" value="relaxing">
+							<label for="service-field">Relaxing</label>
+							<input type="radio" id="service-field" name="service" value="email">
+							<label for="service-field">Email</label>
+							<input type="radio" id="service-field" name="service" value="phone">
+							<label for="service-field">Phone</label>
+						</div>
+						<div class="field-7">
+							<input type="checkbox" id="tnc-field" name="tnc" required>
+							<label for="tnc-field">I agree to the terms *</label>
+						</div>
+					<input type="submit" id="register" value="Register Now!">
+					</form>
+				</section>
+
+			<section id="message">
+				<form action="thank-you.html" id="form-message">
+					<h3>Send us a message</h3>
+					<p>We usually respond within 1 business day</p>
+					<h4>General Info</h4>
+					<div class="twice-field-1">
+						<label for="name-field-two">Name *</label>
+						<input type="text" id="name-field-two" name="your-name-two" placeholder="John Smith" required>
+					</div>	
+					<div class="twice-field-2">
+						<label for="email-field-two">Email *</label>
+						<input type="text" id="email-field-two" name="your-email-two" placeholder="email@mydomain.com" required>
+					</div>
+					<div class="twice-field-3">
+						<label for="company-field">Company</label>
+						<input type="text" id="company-field" name="your-company" placeholder="Acme Inc.">
+					</div>
+					<div class="twice-field-4">
+						<label for="where-field">How did you hear about us?</label>
+						<input type="text" id="company-field" name="your-company" placeholder="Acme Inc.">
+					</div>
+					<div class="twice-field-5">
+						<label for="where-field">How did you hear about us?</label>
+						<input type="text" id="where-field" name="where" placeholder="Event">
+					</div>
+					<div class="twice-field-6">
+						<span>What would you like to discuss?</span>
+						<input type="radio" id="discuss-field" name="discuss" value="hiring-philosophie">
+						<label for="discuss-field">Hiring Philosophie</label>
+						<input type="radio" id="discuss-field" name="discuss" value="join-philosophie">
+						<label for="discuss-field">Joining the Philosophie team</label>
+						<input type="radio" id="discuss-field" name="discuss" value="other">
+						<label for="discuss-field">Other</label>
+					</div>
+					
+					<h4>Project Info</h4>
+					<div class="twice-field-7">
+					<span>Which of our offerings interest you?</span>
+					<input type="checkbox" id="interest-field" name="interest" value="lean-branding">		
+					<label for="interest-field">Lean Branding</label>
+					<input type="checkbox" id="interest-field" name="interest" value="mvp">		
+					<label for="interest-field">4 Week MVP</label>
+					<input type="checkbox" id="interest-field" name="interest" value="product">		
+					<label for="interest-field">Product Team</label>
+					<input type="checkbox" id="interest-field" name="interest" value="design">		
+					<label for="interest-field">Design Sprint</label>
+					<input type="checkbox" id="interest-field" name="interest" value="other">		
+					<label for="interest-field">Other</label>
+					</div>	
+					<div class="twice-field-8">
+					<span class="comment">What is the problem you are trying to solve?</span>
+					<input type="textarea" name="problem">
+					</div>
+					<div class="twice-field-9">
+					<span class="comment">What do you hope our engagement will accomplish?</span>
+					<input type="textarea" name="hope">
+					</div>
+					<div class="twice-field-10">
+					<span class="comment">What is your budget range?</span>
+					<input type="radio" id="budget-field" name="budget" value="40k">
+					<label for="budget-field">less than $40k</label>
+					<input type="radio" id="budget-field" name="budget" value="100k">
+					<label for="budget-field">$40k - $100k</label>
+					<input type="radio" id="budget-field" name="budget" value="250k">
+					<label for="budget-field">$100k - $250k</label>
+					<input type="radio" id="budget-field" name="budget" value="500k">
+					<label for="budget-field">$250k - $500k</label>
+					<input type="radio" id="budget-field" name="budget" value="over-500k">
+					<label for="budget-field">$500k +</label>
+					</div>
+					<input type="submit" id="submit-button" value="Submit">
+				</form>
+			</section>
+			</div>
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
+</html>
